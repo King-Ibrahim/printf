@@ -12,6 +12,11 @@
  * @f: The function associated
  */
 
+int _putchar(char c)
+int _printf(const char *format, ...)
+va_list args;
+va_start(args, format);
+
 typedef struct specifiers
 {
 	char specifiers;
